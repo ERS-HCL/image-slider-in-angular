@@ -1,0 +1,17 @@
+<div class="slideshow-container">
+
+<div class="mySlides fade" *ngFor="let data of imagesData">
+  <div class="numbertext">{{data.imageNumber}}/{{imagesData.length}}</div>
+  <img src={{data.image}} style="width:100%" >
+  <div class="text">{{data.captionText}}</div>
+</div>
+
+<a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+<a class="next" (click)="plusSlides(1)">&#10095;</a>
+
+</div>
+
+
+<div style="text-align:center;margin:20px;">
+  <span class="dot" (click)="currentSlide(dotData.imageNumber)" *ngFor='let dotData of imagesData'></span> 
+</div>
