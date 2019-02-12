@@ -36,7 +36,7 @@ imageData is the input for the image-slider of type **ImagesJsonFormate**
 
 ```typescript
 
-ImagesJsonFormate{
+ImagesJsonFormate{ 
   imageNumber:number;
   image:string;
   captionText:string;
