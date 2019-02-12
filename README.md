@@ -1,6 +1,7 @@
 # image-slider-in-angular
 Image-slider is a simple component used to creat a slider which is designed in angular.
 
+
 <p align="center">
     <img  alt="Image-slider" src="Images/output.png" class="img-responsive">
 </p>
@@ -26,8 +27,9 @@ Download the src folder from image-slider folder and install the required packag
 ## Adding image-slider component in your project
  Download the image-slider component from image-slider/src/app folder to your angular project and include required components from angular.
 
-```
-html<app-image-slider [imagesData]='imagesData'></app-image-slider>
+``` html
+
+<app-image-slider [imagesData]='imagesData'></app-image-slider>
 
 ```
 imageData is the input for the image-slider of type **ImagesJsonFormate**
