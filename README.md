@@ -6,7 +6,7 @@ Image-slider is a simple component used to creat a slider which is designed in a
     <img  alt="Image-slider" src="Images/output.png" class="img-responsive">
 </p>
 
-To preview demo of Dynamic form creation by json data Component, [Click here](https://angular-m8zxed.stackblitz.io/)
+To preview demo of Dynamic form creation by json data Component, [Click here](https://angular-rvslc9.stackblitz.io/)
 
 ## Using the complete angular component
 
